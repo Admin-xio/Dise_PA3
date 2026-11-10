@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link rel="shortcut icon" href="img/cake.jpg" type="image/x-icon">
+    <title>Contactos</title>
+</head>
+<body class="contactos">
+    <div id="contenedor">
+        <header>
+            <h1>Dulce Locura</h1>
+            <ul id="menu">
+                <li><a href="index.html"><i class="fa-solid fa-house"></i>Inicio</a></li>
+                <li><a href="nosotros.html"><i class="fa-solid fa-users"></i>Nosotros</a></li>
+                <li><a href="blog.html"><i class="fa-solid fa-book"></i>Blog</a></li>
+                <li><a href="fotos.html"><i class="fa-solid fa-image"></i>Fotos</a></li>
+                <li><a href="videos.html"><i class="fa-solid fa-video"></i>Videos</a></li>
+                <li><a href="contactos.html"><i class="fa-solid fa-address-book"></i>Contactos</a></li>
+            </ul>
+        </header>
+        <main id="contenido">
+            
+            <div class="bloque-superior">
+    
+                <!-- COLUMNA IZQUIERDA -->
+                <section class="columna-izquierda">
+                <table class="tabla-contacto">
+                    <thead>
+                    <tr>
+                        <th colspan="2">Información de Contacto</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td><strong>Dirección</strong></td>
+                        <td>Jr. Carabaya 552 - Lima Perú</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Teléfonos</strong></td>
+                        <td>997 577 470 | 980 978 484 | (01) 533 5242</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Email</strong></td>
+                        <td>info@fiftycoffees.com</td>
+                    </tr>
+                    </tbody>
+                    <thead>
+                    <tr>
+                        <th colspan="2">Horarios de Atención Presencial</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td colspan="2">
+                        <strong>Área de Ventas:</strong><br>
+                        De Lunes a viernes de 8 am a 6pm
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+
+                <div class="contenedor-foto">
+                    <img src="img/caffe.jpg" alt="Café">
+                </div>
+                </section>
+
+                <!-- COLUMNA DERECHA -->
+                <section class="columna-derecha">
+                <form method="get" name="form2" class="formulario-contacto">
+                    <h2>Formulario</h2>
+                    <div class="grupo-campo">
+                    <label for="nombre">Nombre y Apellido</label>
+                    <input type="text" id="nombre" name="nombre">
+                    </div>
+                    <div class="grupo-campo">
+                    <label for="celular">Celular*</label>
+                    <input type="tel" id="celular" name="telefono" placeholder="999 999 999" maxlength="9">
+                    </div>
+                    <div class="grupo-campo">
+                    <label for="email">Correo electrónico*</label>
+                    <input type="email" id="email" name="email" placeholder="nombre@dominio.com" required>
+                    </div>
+                    <div class="grupo-campo">
+                    <label for="ruc">RUC - Empresa (opcional)</label>
+                    <input type="tel" id="ruc" name="ruc" maxlength="11">
+                    </div>
+                    <div class="grupo-campo">
+                    <label for="mensaje">Mensaje</label>
+                    <textarea id="mensaje" name="mensaje" rows="4" placeholder="Detalle su experiencia a continuación como un punto de inicio"></textarea>
+                    </div>
+                    <button type="submit" class="btn-enviar">ENVIAR</button>
+                </form>
+                </section>
+
+            </div>
+
+            <!-- 2. SECCIÓN DEL MAPA (FUERA DE LAS COLUMNAS, ABAJO DEL TODO) -->
+            <section class="seccion-mapa">
+                <h3>Local Central</h3>
+                <div class="contenedor-iframe">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3900.917268475211!2d-77.0355941!3d-12.117813000000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c83d2188f069%3A0x6e0f554cf72ba5f9!2sDolce%20Capriccio%20Miraflores!5e0!3m2!1ses-419!2spe!4v1794265320751!5m2!1ses-419!2spe" width="" height="";allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+                </div>
+            </section>
+        </main>
+        <div class="redes">
+        <a href="https://www.linkedin.com/company/dolce-capriccio/"><i class="fa-brands fa-linkedin-in"></i></a>
+        <a href="https://www.facebook.com/DolceCapriccioOficial/"><i class="fa-brands fa-facebook"></i></a>
+        <a href="https://www.instagram.com/dolcecapricciooficial/"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://www.tiktok.com/@dolcecapricciooficial"><i class="fa-brands fa-tiktok"></i></a>
+    </div>
+    
+        
+    
+</body>
+</html>
